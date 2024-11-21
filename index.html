@@ -5,91 +5,226 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="TerraTales is your trusted traveler agent's that will take you to your dream detination's">
     <link rel="website icon" type="svg" href="assets/logo.svg">
-    <title>Venture | Travel Agent's</title>
+    <title>Venture | Your Gateway to Unforgettable Journeys</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
   <header>
     <nav>
-      <div class="nav-bar">
-        <div class="logo"><img src="assets/logo3.svg" alt="Logo Venture" width="200"></div>
-        <burger>
-          <input type="checkbox">
-          <span></span>
-          <span></span>
-          <span></span>
-        </burger>
-        <div class="menu">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#package">Our Package</a></li>
-            <li><a href="#call-us">Call Us</a></li>
-            <li><a href="#sign-up">Sign Up</a></li>
-          </ul>
-        </div>
+      <a class="logo" href="#"><img src="assets/logo2.svg" alt="Logo Venture"></a>
+      <div class="burgers">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home"><div class="c">Home</div></a></li>
+          <li><a href="#package"><div class="c">Our Package</div></a></li>
+          <li><a href="#call-us"><div class="c">Call Us</div></a></li>
+          <li class="contact"><a href="#contact"><div class="c">Contact Us</div></a></li>
+          <li class="sign"><a href="#sign-up"><div>Sign Up</div></a></li>
+        </ul>
       </div>
     </nav>
   </header>
   <main>
     <div id="home">
-      <!-- Home -->
-       <div class="title">
+      <div class="title">
         <h1>Your Trusted Travel Agent's</h1>
         <p>"From Dream to Destinations"</p>
-       </div>
-       <div class="slide">
-        <img src="assets/" alt="Gambar Destinasi">
-        <img src="assets/" alt="Gambar Destinasi">
-        <img src="assets/" alt="Gambar Destinasi">
-        <img src="assets/" alt="Gambar Destinasi">
-        <img src="assets/" alt="Gambar Destinasi">
-        <img src="assets/" alt="Gambar Destinasi">
-        <img src="assets/" alt="Gambar Destinasi">
       </div>
-       <div class="preview">
-        <div class="hero">
-          <img src="assets/" alt="Gambar Destinasi">
-          <span class="name">Nama</span>
-          <button>Lihat detail</button>
+      <div class="img-c">
+        <div class="main-hero">
+          <div class="carousel">
+            <div class="carousel-inner">
+              <!-- img -->
+              <img src="assets/photo/bali.jpg" alt="Gambar Destinasi">
+              <img src="assets/photo/bandung.jpg" alt="Gambar Destinasi">
+              <img src="assets/photo/japan.jpg" alt="Gambar Destinasi">
+              <img src="assets/photo/paris.jpg" alt="Gambar Destinasi">
+              <img src="assets/photo/singapore.jpg" alt="Gambar Destinasi">
+              <img src="assets/photo/yogya.jpg" alt="Gambar Destinasi">
+              <img src="assets/photo/surabaya.jpg" alt="Gambar Destinasi">
+              <img src="assets/photo/yunani.jpg" alt="Gambar Destinasi">
+            </div>
+            <!-- button -->
+            <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button> 
+            <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+          </div>
+          <div class="parent">
+            <div class="feedback">
+              <div class="item">
+                <h3>Linda K.</h3>
+                <p><strong>Destinasi:</strong>Santorini, Yunani</p>
+                <blockquote>
+                  "Liburan ke Santorini menjadi lebih istimewa karena bantuan tim ini. Mereka selalu siap membantu kapan saja, dan semuanya berjalan lancar."
+                </blockquote>
+              </div>
+              <div class="item">
+                <h3>Sarah D.</h3>
+                <p><strong>Destinasi:</strong>Bali, Indonesia</p>
+                <blockquote>
+                  "Pengalaman yang luar biasa! Semua sudah diatur dengan sempurna, mulai dari hotel, transportasi, hingga objek wisata. Tidak perlu pusing memikirkan detail kecil."
+                </blockquote>
+              </div>
+              <div class="item">
+                <h3>Michael T.</h3>
+                <p><strong>Destinasi:</strong>Tokyo, Jepang</p>
+                <blockquote>
+                  "Paket tur ini benar-benar sesuai dengan deskripsi. Semua staf sangat ramah, dan jadwal perjalanan dibuat sangat efisien. Pasti akan menggunakan jasa ini lagi!"
+                </blockquote>
+              </div>
+              <div class="item">
+                <h3>Clara W.</h3>
+                <p><strong>Destinasi:</strong>Paris, Prancis</p>
+                <blockquote>
+                  "Agen travel yang profesional! Semua tempat ikonik di Paris berhasil saya kunjungi, dan saya sangat terkesan dengan pengaturan mereka."
+                </blockquote>
+              </div>
+              <div class="item">
+                <h3>Rizky A.</h3>
+                <p><strong>Destinasi:</strong>Yoyakarta, Indonesia</p>
+                <blockquote>
+                  "Sangat puas dengan pelayanan agen ini! Mereka mengerti kebutuhan kami dan memberikan solusi terbaik untuk perjalanan keluarga kami."
+                </blockquote>
+              </div>
+              <div class="item">
+                <h3>Dimas H.</h3>
+                <p><strong>Destinasi:</strong>Lombok, Indonesia</p>
+                <blockquote>
+                  "Jasa mereka membuat liburan saya lebih santai. Semua kebutuhan sudah diatur sebelumnya, tinggal menikmati saja."
+                </blockquote>
+              </div>
+              <div class="item">
+                <h3>Kelvin K.</h3>
+                <p><strong>Destinasi:</strong>Maldevis</p>
+                <blockquote>
+                  "Tim mereka sangat responsif, bahkan membantu saya saat ada kendala mendadak. Sangat merekomendasikan!"
+                </blockquote>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="hero">
-          <img src="assets/" alt="Gambar Destinasi">
-          <span class="name">Nama</span>
-          <button>Lihat detail</button>
+        <div id="contact">
+          <h2>Contact Us</h2><br>
+          <p>Tim kami akan menghubungi anda dalam 1 x 24 jam, setelah data kami terima</p>
+          <form action="#">
+            <strong>Nama</strong>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan nama Anda" class="input">
+            <strong>Email</strong>
+            <input type="email" name="email" id="email" placeholder="Masukkan Email" class="input">
+            <strong>Ketertarikan</strong>
+            <select name="" id="" aria-placeholder="Pilihan" class="input">
+              <option value="0">Pilihan</option>
+              <option value="a">Traveling</option>
+              <option value="b">Hiking</option>
+              <option value="c">Camping</option>
+            </select>
+            <strong>Pesan</strong>
+            <input type="text" name="pesan" id="pesan" placeholder="Masukkan pesan Anda" class="input">
+            <button type="submit">Kirim</button>
+          </form>
         </div>
-        <div class="hero">
-          <img src="assets/" alt="Gambar Destinasi">
-          <span class="name">Nama</span>
-          <button>Lihat detail</button>
-        </div>
-        <div class="hero">
-          <img src="assets/" alt="Gambar Destinasi">
-          <span class="name">Nama</span>
-          <button>Lihat detail</button>
-        </div>
-        <div class="hero">
-          <img src="assets/" alt="Gambar Destinasi">
-          <span class="name">Nama</span>
-          <button>Lihat detail</button>
-        </div>
-       </div>
+      </div>
+      <h1>Why Choose Venture?</h1>
+      <p>Kami berkominmen untuk memberikan pengalaman terbaik dengan layanan unggulan kami.</p><br>
+      <span><b>Personalized Itinaries</b></span>
+      <p>Kami merancang rencana perjalanan yang disesuaikan dengan kebutuhan dan prefensi anda</p><br>
+      <span><b>Experienced Travel Guides</b></span>
+      <p>Dipandu oleh tim profesional yang siap memastikan perjalanan Anda nyaman dan aman</p><br>
+      <span><b>24/7 Cumstomer Support</b></span>
+      <p>Tim kami selalu siap membantu Anda kapan pun Anda membutuhkannya</p>
     </div>
-    <div id="about">
-      <!-- About Us -->
-    </div>
+    <br>
+    <hr>
+    <br>
     <div id="package">
-      <!-- Our Package -->
+      <div class="title">
+        <h1>See Our Package</h1>
+        <p>Discover Yout Next Destinations</p>
+      </div>
+      <div class="list-package">
+        <div class="list">
+          <img src="assets/photo/bali.jpg" alt="destinasi">
+          <h3>Bali</h3>
+          <blockquote>
+            "Pulau Dewata menawarkan pantai eksotis seperti Kuta dan Nusa Dua, budaya yang kaya di Ubud, serta pengalaman kuliner yang autentik. Bali adalah tempat sempurna untuk relaksasi dan eksplorasi."
+          </blockquote>
+        </div>
+        <div class="list">
+          <img src="assets/photo/bandung.jpg" alt="destinasi">
+          <h3>Bandung</h3>
+          <blockquote>
+            "Nikmati suasana sejuk dan tenang di Bandung. Temukan wisata alam seperti Tangkuban Perahu, Lembang, dan Kawah Putih. Jangan lupa mencicipi kuliner khas Sunda dan berbelanja di factory outlet terkenal."
+          </blockquote>
+        </div>
+        <div class="list">
+          <img src="assets/photo/yogya.jpg" alt="destinasi">
+          <h3>Yogyakarta</h3>
+          <blockquote>
+            "Kota budaya yang menawarkan pengalaman sejarah dan tradisi Jawa. Kunjungi Candi Borobudur, Keraton Yogyakarta, dan Malioboro. Jangan lewatkan makanan khas seperti gudeg."
+          </blockquote>
+        </div>
+        <div class="list">
+          <img src="assets/photo/surabaya.jpg" alt="destinasi">
+          <h3>Surabaya</h3>
+          <blockquote>
+            "Kota Pahlawan dengan daya tarik sejarah seperti Tugu Pahlawan dan House of Sampoerna. Nikmati kuliner khas Surabaya, seperti rawon dan rujak cingur, serta wisata alam di Mangrove Wonorejo."
+          </blockquote>
+        </div>
+        <div class="list">
+          <img src="assets/photo/singapore.jpg" alt="destinasi">
+          <h3>Singapore</h3>
+          <blockquote>
+            "Nikmati perjalanan singkat ke kota modern ini. Jelajahi Gardens by the Bay, Marina Bay Sands, dan Orchard Road. Rasakan beragam kuliner lokal di hawker center yang terkenal."
+          </blockquote>
+        </div>
+        <div class="list">
+          <img src="assets/photo/yunani.jpg" alt="destinasi">
+          <h3>Yunani</h3>
+          <blockquote>
+            "Jelajahi sejarah Yunani kuno di Athena dengan Acropolis-nya yang ikonik. Kunjungi pulau Santorini untuk menikmati pemandangan laut biru, bangunan putih khas, dan matahari terbenam yang romantis."
+          </blockquote>
+        </div>
+        <div class="list">
+          <img src="assets/photo/paris.jpg" alt="destinasi">
+          <h3>Paris</h3>
+          <blockquote>
+            "Rasakan romansa di Kota Cinta. Kagumi Menara Eiffel, Museum Louvre, dan Katedral Notre-Dame. Jelajahi jalanan penuh seni, toko-toko mewah, dan kafe bergaya Parisian."
+          </blockquote>
+        </div>
+        <div class="list">
+          <img src="assets/photo/japan.jpg" alt="destinasi">
+          <h3>Jepang</h3>
+          <blockquote>
+            "Temukan perpaduan tradisi dan modernitas di Jepang. Nikmati bunga sakura di musim semi, pengalaman budaya di Kyoto, dan suasana futuristik di Tokyo. Jangan lewatkan makanan khas seperti sushi dan ramen."
+          </blockquote>
+        </div>
+      </div>
     </div>
-    <div id="feedback">
-      <!-- Feedback -->
-    </div>
+    <br>
+    <hr>
     <div id="call-us">
-      <!-- Call Us -->
+      <div class="title">
+        <h1>Why Wait? Start Your Journey with Venture!</h1>
+        <p>Perjalanan tak terlupakan Anda dimulai di sini. Siap untuk menjelajah?</p>
+        <blockquote>Klik tombol di bawah ini untuk memulai petualangan Anda hari ini!</blockquote>
+        <button>Mulai Perjalanan Sekarang</button>
+      </div>
     </div>
   </main>
-  <div class="modals"></div>
-  <footer></footer>
+  <hr>
+  <footer>
+    <img src="assets/logo2.svg" alt="Logo Venture" width="150">
+    <div class="info"><br>
+      <a href="#">Informasi</a>
+      <a href="#">Syarat & Ketentuan</a>
+      <a href="#">Abous Us</a>
+    </div>
+    <span>&copy;2024 Dzia | Blob32</span>
+  </footer>
   <script src="script/script.js"></script>
 </body>
 </html>
