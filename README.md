@@ -25,7 +25,7 @@ Venture adalah platform untuk merencanakan dan memesan paket perjalanan ke berba
 ## **Teknologi yang Digunakan**
 - **HTML5**: Untuk struktur dasar halaman.  
 - **CSS3**: Untuk styling dan tata letak.  
-- **JavaScript**: Untuk interaktivitas pada elemen tertentu (jika dibutuhkan).  
+- **JavaScript**: Untuk interaktivitas pada elemen tertentu. 
 
 ## **Struktur Proyek**
 ```
