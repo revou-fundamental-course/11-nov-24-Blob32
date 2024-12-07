@@ -1,5 +1,3 @@
-Berikut adalah template README yang dapat Anda gunakan untuk proyek website **Venture**:
-
 ---
 
 # **Venture - Your Gateway to Unforgettable Journeys**
